@@ -1,7 +1,6 @@
 
 
-
-name: React practice
+name: Deploy Website
 
 on: [push]
 
