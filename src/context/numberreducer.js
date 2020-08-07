@@ -3,9 +3,9 @@
 const number_reducer= (state, action)=> {
     switch (action.type) {
       case 'increment':
-        return state + 1;
+        return state + action.val;
       case 'decrement':
-        return state - 1;
+        return state - action.val;
     }
   }
 

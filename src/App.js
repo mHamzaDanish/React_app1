@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import Parent from './parent'
-import counterContext from './countercontext';
+import counterContext from './context/countercontext';
 
 
 function App() {
