@@ -1,14 +1,10 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import counterContext from './context/countercontext';
 
 const Child=(props)=>{
 
     let countervalue = useContext(counterContext)
-    console.log(countervalue);
     let updatevalue= countervalue[1]
- 
-    
-    
     return (
         <div>
             <h3>Child Component</h3>

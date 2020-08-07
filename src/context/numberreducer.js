@@ -6,6 +6,8 @@ const number_reducer= (state, action)=> {
         return state + action.val;
       case 'decrement':
         return state - action.val;
+      default:
+        throw new Error();
     }
   }
 
